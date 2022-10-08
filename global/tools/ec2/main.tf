@@ -1,3 +1,8 @@
+/**
+  Overview:
+   * create ec2 instance dedicated to each devops tools (e.g. jenkins, sonarqube, etc.)
+*/
+
 module "ec2_instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
   version = "~> 3.0"
