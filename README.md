@@ -1,6 +1,5 @@
-# Repository Structure
-```
+# Infrastructure Design
 
-```
+# Reposity Structure
 
 # Naming Convention
