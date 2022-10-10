@@ -1,6 +1,21 @@
-# Accounts Management Design
-![Accounts Management Design](./diagrams/accounts-design.drawio.png)
+# EKS Cluster Design
+![EKS Cluster Design](./diagrams/eks-cluster-design.drawio.png)
 
 # EKS Best Practices 
-* [not sure] Roles are meant for internal use and extreme access privileges (admin,poweruser,readonly)
-* Follow the least privilege access rule
+### General
+* **AWS Best practice for Amazon Elastic Kubernetes Service (EKS)**: https://medium.com/avmconsulting-blog/aws-best-practice-for-amazon-elastic-kubernetes-service-eks-7ae468869724
+
+### Security
+* https://aws.github.io/aws-eks-best-practices/security/docs/
+
+### Reliability
+* https://aws.github.io/aws-eks-best-practices/reliability/docs/
+
+### Cluster Autoscaling
+* https://aws.github.io/aws-eks-best-practices/cluster-autoscaling/
+
+### Running Windows Container
+* https://aws.github.io/aws-eks-best-practices/windows/docs/ami/
+
+### Networking
+* https://aws.github.io/aws-eks-best-practices/networking/index/

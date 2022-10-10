@@ -10,3 +10,12 @@ variable "region" {
   type = list(string)
   default = ["us-east-1"]
 }
+
+/**
+  * others 
+*/
+variable "environment" {
+  type = string
+  description = "environment name"
+  default = "staging"
+}
