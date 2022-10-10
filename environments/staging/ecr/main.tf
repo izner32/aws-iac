@@ -1,11 +1,13 @@
 /**
-  * create ecr repository
+  * create private ecr repository
 */
 module "ecr" {
   source = "terraform-aws-modules/ecr/aws"
 
   repository_name = var.environment
-
+  repository_type = "private"
+  repository_image_scan_on_push = true
+  
   repository_read_write_access_arns = ["arn:aws:iam::012345678901:role/terraform"]
   repository_lifecycle_policy = jsonencode({
     rules = [
