@@ -13,8 +13,8 @@
                 <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="390" y="170" width="140" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="390" y="240" width="90" height="30" as="geometry"/>
+                <mxCell id="13" value="environment (production)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="240" width="140" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="230" y="170" width="140" height="100" as="geometry"/>
@@ -43,8 +43,8 @@
                 <mxCell id="8" value="docker image" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="80" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="240" width="90" height="30" as="geometry"/>
+                <mxCell id="11" value="environment (staging)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="240" width="140" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

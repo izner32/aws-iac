@@ -4,7 +4,7 @@
 module "ecr" {
   source = "terraform-aws-modules/ecr/aws"
 
-  repository_name = "snapshot"
+  repository_name = var.environment
   repository_type = "private"
   repository_image_scan_on_push = true
   
@@ -29,6 +29,6 @@ module "ecr" {
 
   tags = {
     Terraform   = "true"
-    Environment = var.environment
+    Environment = "staging"
   }
 }
